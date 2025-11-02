@@ -1271,10 +1271,13 @@ if __name__ == "__main__":
     print("📱 Responsive design: Works on PC and Mobile")
     print("=" * 60)
     
-    webbrowser.open("http://127.0.0.1:5000", new=2)
+    #webbrowser.open("http://127.0.0.1:5000", new=2)
     
     try:
-        app.run(debug=False, port=5000, threaded=True)
+        import os
+        port = int(os.environ.get("PORT", 5000))
+        app.run(debug=False, host='0.0.0.0', port=port, threaded=True)
+        #app.run(debug=False, port=5000, threaded=True)
     except KeyboardInterrupt:
         print("\n👋 Shutting down...")
         close_browser_session()
