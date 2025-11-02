@@ -1,0 +1,15 @@
+{
+  "LINKEDIN_EMAIL": "akhilraddy13@gmail.com",
+  "LINKEDIN_PASSWORD": "Akhil@akki8",
+  "NAUKRI_EMAIL": "",
+  "NAUKRI_PASSWORD": "",
+  "RESUME_PATH": "",
+  "LOCATION": "India",
+  "KEYWORDS": "MIS Executive;Business Analyst",
+  "APPLY_TITLE_KEYWORDS": "MIS;Business Analyst",
+  "HEADLESS": false,
+  "USE_CHROME_PROFILE": true,
+  "CHROME_PROFILE_PATH": "",
+  "CHROME_PATH": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "USE_REMOTE_DEBUGGING": false
+}
